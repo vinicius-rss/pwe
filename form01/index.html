@@ -10,29 +10,29 @@
     <form>
 
         <label for="txtNome">Nome:</label>
-        <input id="txtNome" type="text" placeholder="Insira o nome completo">
+        <input id="txtNome" type="text" placeholder="Insira o nome completo" required>
         <br><br>
 
         <label>Senha:</label>
-        <input id="txtSenha" type="password" placeholder="De 5 a 8 caracteres">
+        <input id="txtSenha" type="password" placeholder="De 5 a 8 caracteres" required>
         <br><br>
 
         <label>Data de nascimento:</label>
-        <input id="txtNascimento" type="date">
+        <input id="txtNascimento" type="date" required>
         <br><br>
 
         <label>Número da sua casa</label>
-        <input id="txtNumerodacasa" type="number" min="2" maxlength="9998" step="2">
+        <input id="txtNumerodacasa" type="number" min="2" maxlength="9998" step="2" required>
         <br><br>
 
         <fieldset>
             <legend>Contato</legend>
             <label>Email:</label>
-            <input id="txtEmail" type="email" placeholder="exemplo@exemplo.com">
+            <input id="txtEmail" type="email" placeholder="exemplo@exemplo.com" required>
             <br><br>
 
             <label>Site:</label>
-            <input id="txtSite" type="url" placeholder="http//www.exemplo.com">
+            <input id="txtSite" type="url" placeholder="http//www.exemplo.com" required>
         </fieldset>
 
         <label for="txtEstado">Estado:</label>
@@ -57,6 +57,10 @@
         <input type="checkbox" name="Opção1"> The last of us
         <br>
         <input type="checkbox" name="Opção1"> Uncharted
-    </form>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+        <input type="button" value="Cancelar" </form>
 </body>
+
 </html>
