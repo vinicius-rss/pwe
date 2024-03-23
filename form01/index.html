@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+
+        <label for="txtNome">Nome:</label>
+        <input id="txtNome" type="text" placeholder="Insira o nome completo">
+        <br><br>
+
+        <label>Senha:</label>
+        <input id="txtSenha" type="password" placeholder="De 5 a 8 caracteres">
+        <br><br>
+
+        <label>Data de nascimento:</label>
+        <input id="txtNascimento" type="date">
+        <br><br>
+
+        <label>Número da sua casa</label>
+        <input id="txtNumerodacasa" type="number" min="2" maxlength="9998" step="2">
+        <br><br>
+
+        <fieldset>
+            <legend>Contato</legend>
+            <label>Email:</label>
+            <input id="txtEmail" type="email" placeholder="exemplo@exemplo.com">
+            <br><br>
+
+            <label>Site:</label>
+            <input id="txtSite" type="site" placeholder="http//www.exemplo.com">
+        </fieldset>
+
+        <label for="txtEstado">Estado:</label>
+        <select id="txtEstado">
+            <option>MG</option>
+            <option>RJ</option>
+            <option>SP</option>
+        </select>
+        <label>Sexo:</label>
+        <input id="masc" type="radio" name="sexo">
+        <label for="masc">Masculino</label>
+
+        <input id="fem" type="radio" name="sexo">
+        <label for="fem">Feminino</label>
+        <br><br>
+
+        <label>Jogos favoritos:</label>
+        <br><br>
+        <input type="checkbox" name="Opção1"> Red Dead Redemption 2
+        <br>
+        <input type="checkbox" name="Opção1"> The last of us
+        <br>
+        <input type="checkbox" name="Opção1"> Uncharted
+    </form>
+</body>
+</html>
