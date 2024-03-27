@@ -3,46 +3,56 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Cadastros</title>
 </head>
 
 <body>
-    <h1 style="text-align: center;">Cadastro de clientes</h1>
+    <h1 style="text-align: left;">Cadastro de clientes</h1>
+    <p style="color: red;">Todos os campos são de preenchimento obrigatório</p>
+
     <form>
         <fieldset>
-            <legend>Dados pessoais:</legend>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome"><br>
+            <legend>Dados pessoais</legend>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
 
-        <label for="data de nascimento">Data de nascimento:</label>
-        <input type="date" id="data de nascimento" name="data de nascimento"><br> 
+            <label for="data">Data de nascimento:</label><br>
+            <input type="date" id="data" name="data" required><br><br>
 
-        <label for="sexo">Sexo:</label>
-        <label><input type="radio" name="sexo" value="masculino" > Masculino</label>
-        <label><input type="radio" name="sexo" value="feminino"> Feminino</label>
-        
-        <!---- será alterada
+            <label for="sexo">Sexo:</label><br>
+            <label><input type="radio" name="sexo" value="masculino" required> Masculino</label>
+            <label><input type="radio" name="sexo" value="feminino" required> Feminino</label>
         </fieldset>
+        <br>
+
         <fieldset>
-            <legend>Dados pessoais:</legend>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome"><br>
+            <legend>Informações de contato</legend>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
 
-        <label for="data de nascimento">Data de nascimento:</label>
-        <input type="date" id="data de nascimento" name="data de nascimento"><br> 
+            <label for="telefone">Telefone celular:</label><br>
+            <input type="tel" id="telefone" name="telefone" maxlength="9" required><br><br>
 
-        <label for="sexo">Sexo:</label>
-        <label><input type="radio" name="sexo" value="masculino" > Masculino</label>
-        <label><input type="radio" name="sexo" value="feminino"> Feminino</label>
-        
-        
+            <label for="website">Website pessoal:</label><br>
+            <input type="url" id="website" name="website" required>
         </fieldset>
-    <!---->
-    
-    
-    
-    
-    
+        <br>
+        
+        <fieldset>
+            <legend>Localização</legend>
+            <label for="endereco">Endereço:</label><br>
+            <input type="text" id="endereco" name="edereco" required><br><br>
+
+            <label for="numero">Número:</label><br>
+            <input type="number" id="numero" name="numero" min="1" max="9999" required><br><br>
+
+            <label for="cidade">Cidade:</label><br>
+            <input type="text" id="cidade" name="cidade" required>
+        </fieldset>
+
+
+
+
     </form>
 </body>
 
