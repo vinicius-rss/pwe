@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Cadastro de clientes</h1>
+    <form>
+        <fieldset>
+            <legend>Dados pessoais:</legend>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br>
+
+        <label for="data de nascimento">Data de nascimento:</label>
+        <input type="date" id="data de nascimento" name="data de nascimento"><br> 
+
+        <label for="sexo">Sexo:</label>
+        <label><input type="radio" name="sexo" value="masculino" > Masculino</label>
+        <label><input type="radio" name="sexo" value="feminino"> Feminino</label>
+        
+        <!---- será alterada
+        </fieldset>
+        <fieldset>
+            <legend>Dados pessoais:</legend>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br>
+
+        <label for="data de nascimento">Data de nascimento:</label>
+        <input type="date" id="data de nascimento" name="data de nascimento"><br> 
+
+        <label for="sexo">Sexo:</label>
+        <label><input type="radio" name="sexo" value="masculino" > Masculino</label>
+        <label><input type="radio" name="sexo" value="feminino"> Feminino</label>
+        
+        
+        </fieldset>
+    <!---->
+    
+    
+    
+    
+    
+    </form>
+</body>
+
+</html>
