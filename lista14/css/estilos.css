@@ -1,0 +1,17 @@
+* {
+    margin: 0%;
+}
+
+.primeiroHeader h1 {
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding: 15px;
+}
+
+.segundoHeader p {
+    background-color: rgb(151, 151, 151);
+    color: white;
+    text-align: right;
+    padding: 15px;
+}
