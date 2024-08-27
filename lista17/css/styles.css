@@ -9,6 +9,43 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header {
+    text-align: center;
+}
+
+header img {
+    width: 1401px;
+    height: 200px;
+    justify-content: center;
+}
+
+.menu {
+    background-color: rgb(4, 4, 103);
+    text-transform: uppercase;
+
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+nav li {
+    display: inline-block;
+    color: white;
+    padding: 25px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
 main section {
     width: 1200px;
     margin: auto;
@@ -89,4 +126,8 @@ main section h2 {
 
 footer {
     color: black;
+}
+
+.paixao button {
+    border: 1px solid red;
 }
