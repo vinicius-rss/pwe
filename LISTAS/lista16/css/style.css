@@ -1,5 +1,6 @@
 *{
     margin: 0 auto;
+    font-family: sans-serif;
 }
 
 
@@ -23,9 +24,10 @@ nav a:hover{
 
 .fotoIcones{
     border: 1px solid red;
-    height: 250px;
+    height: 350px;
     justify-content: center;
     overflow: hidden;
+    text-align: center;
 }
 
 .fotoIcones img{
@@ -33,4 +35,9 @@ nav a:hover{
     max-height: 100%;
     height: auto;
     width: auto;
+}
+
+.fotoIcones h1 {
+    padding: 15px;
+
 }
