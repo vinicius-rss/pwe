@@ -1,0 +1,112 @@
+*   {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.primeiroHeader h1 {
+  background-color: black;
+  color: white;
+  text-align: right;
+  padding: 15px;
+}     
+
+.segundoHeader p {
+  background-color: rgb(121, 121, 121);
+  color: white;
+  text-align: right;
+  padding: 15px;
+  font-weight: bold;
+}
+
+
+nav ul {
+  list-style-type: none;
+  background-color: rgb(122, 130, 255);
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+  margin: 0px 20px 0px 20px;
+}
+
+section {
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: white;
+  justify-content: center;
+  padding: 20px;
+}
+
+body {
+  background-color: black;
+}
+
+
+img {
+  width: 500px;
+  padding: 50px;
+}
+
+.imagem-centro {
+  display: flex;
+  justify-content: center;
+}
+
+.linguagens {
+  padding: 30px;
+  list-style-position: inside;
+  margin-left: 20px;
+}
+
+.linguagens li {
+  padding: 3px;
+  margin: 0;
+}
+
+.importante {
+  font-weight: bold;
+}
+
+.sublinhado {
+  text-decoration: underline;
+}
+
+.italico {
+  font-style: italic;
+}
+
+.tachado {
+  text-decoration: line-through;
+}
+
+.titulo-suave {
+  letter-spacing: 0px;
+  transition: letter-spacing 0.3s ease-in-out;
+}
+
+.titulo-suave:hover {
+  letter-spacing: 5px;
+}
+
+body div ul a {
+  color: rgb(10, 107, 219);
+}
+
+p {
+  padding: 30px;
+}
