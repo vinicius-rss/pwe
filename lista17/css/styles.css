@@ -9,6 +9,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
 header {
     text-align: center;
 }
@@ -23,7 +25,7 @@ header img {
     background-color: rgb(4, 4, 103);
     text-transform: uppercase;
 
-    
+
 }
 
 nav ul {
@@ -87,11 +89,11 @@ main section button:hover {
     cursor: pointer;
 }
 
-.btnAzul{
-    background-color: blue;
+.btnAzul {
+    background-color: rgb(9, 9, 160);
 }
 
-.btnPreto{
+.btnPreto {
     background-color: black;
 }
 
@@ -105,7 +107,7 @@ main section h2 {
 
 }
 
-.container > div {
+.container>div {
 
     width: 100%;
     padding: 20px;
@@ -120,7 +122,6 @@ main section h2 {
 }
 
 .quem-somos {
-
     text-align: center;
 }
 
@@ -128,6 +129,33 @@ footer {
     color: black;
 }
 
-.paixao button {
-    border: 1px solid red;
+.paixao .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.paixao p {
+    margin: 0px;
+}
+
+.paixao div > div {
+    text-align: left;
+    padding-left: 0px;
+}
+
+.paixao div button {
+    display: inline-block;
+}
+
+.img-compromissos {
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 40px;
 }
