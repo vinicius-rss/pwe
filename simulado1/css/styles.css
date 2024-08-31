@@ -1,0 +1,38 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    text-align: right;
+    background-color: white;
+    width: 100%;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 25px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.introducao > .container {
+    border: 1px solid red;
+    text-align: center;
+}
+
+.introducao > h1, p {
+    border: 1px solid red;
+}
+
+section:nth-of-type(odd) {
+    background-color: black;
+}
+section:nth-of-type(even) {
+    background-color: white;
+}
