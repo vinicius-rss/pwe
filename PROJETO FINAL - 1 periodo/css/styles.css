@@ -37,6 +37,38 @@ header img {
 
 }
 
+.menu a {
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: none;
+}
+
+.menu a::before {
+    content: '?'; /* Símbolo de interrogação */
+    font-size: 24px;
+    display: block;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.menu li:hover span {
+    opacity: 1; /* Torna o texto visível ao passar o mouse */
+    text-decoration: none;
+}
+
+.menu a:hover::before {
+    opacity: 0; /* Torna o símbolo invisível ao passar o mouse */
+}
+
+.menu span {
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0px;
@@ -68,7 +100,7 @@ main section:nth-of-type(odd) {
 }
 
 main section:nth-of-type(even) {
-    background-color: rgb(139, 136, 136);
+    background-color: rgb(113, 111, 111);
 }
 
 main section h1 {
@@ -207,7 +239,61 @@ header>img {
     font-size: 60px;
   }
 
-.Target h2 {
+.target h2 {
     text-align: center;
+    background-color: rgb(136, 7, 5);
+    border-radius: 100px;
+}
+
+.target img {
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid purple;
+}
+
+.container > div {
+    text-align: center;
+}
+
+.container > div {
+    border: 1px solid red;
+    width: auto;
+    height: auto;
+}
+
+.vigilancia h2 {
+    text-align: center;
+    background-color: rgb(136, 7, 5);
+    border-radius: 100px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+label {
+    display: inline-block;
+    background-color: rgb(18, 18, 168);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 200px;
+}
+
+label:hover {
+    background-color: rgb(61, 61, 176);
+}   
+
+.texto-escondido {
+    display: none;
+}
+
+input[type="checkbox"]:checked ~ .texto-escondido {
+    display: block;
 }
   
