@@ -282,7 +282,6 @@ header>img {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid purple;
 }
 
 .container>div {
@@ -290,7 +289,6 @@ header>img {
 }
 
 .container>div {
-    border: 1px solid red;
     width: auto;
     height: auto;
 }
