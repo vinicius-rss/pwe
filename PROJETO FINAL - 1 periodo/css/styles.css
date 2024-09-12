@@ -48,13 +48,11 @@ header img {
 
 .menu li:hover span {
     opacity: 1;
-    /* Torna o texto visível ao passar o mouse */
     text-decoration: none;
 }
 
 .menu a::before {
     content: '?';
-    /* Símbolo de interrogação */
     font-size: 24px;
     display: block;
     transition: opacity 0.3s ease, transform 0.3s ease;
@@ -62,7 +60,6 @@ header img {
 
 .menu a:hover::before {
     opacity: 0;
-    /* Torna o símbolo invisível ao passar o mouse */
 }
 
 
@@ -341,3 +338,4 @@ input[type="checkbox"]:checked~.texto-escondido {
 .target {
     text-align: center;
 }
+
