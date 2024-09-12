@@ -33,7 +33,7 @@ header img {
 .menu {
     background-color: rgb(167, 31, 0);
     text-transform: uppercase;
-    border-bottom: 5px solid rgb(126, 124, 124);
+    border-bottom: 3px solid rgb(126, 124, 124);
 
 }
 
@@ -45,21 +45,26 @@ header img {
     text-decoration: none;
 }
 
+
+.menu li:hover span {
+    opacity: 1;
+    /* Torna o texto visível ao passar o mouse */
+    text-decoration: none;
+}
+
 .menu a::before {
-    content: '?'; /* Símbolo de interrogação */
+    content: '?';
+    /* Símbolo de interrogação */
     font-size: 24px;
     display: block;
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-.menu li:hover span {
-    opacity: 1; /* Torna o texto visível ao passar o mouse */
-    text-decoration: none;
+.menu a:hover::before {
+    opacity: 0;
+    /* Torna o símbolo invisível ao passar o mouse */
 }
 
-.menu a:hover::before {
-    opacity: 0; /* Torna o símbolo invisível ao passar o mouse */
-}
 
 .menu span {
     transform: translate(-50%, -50%);
@@ -162,9 +167,24 @@ main section h2 {
     width: 90%;
 }
 
-.quem-somos {
+.casos {
     text-align: center;
 }
+
+.casos img {
+    border-radius: 5px;
+}
+
+.casos h2 {
+    color: white;
+    background-color: rgb(136, 7, 5);
+    border-radius: 100px;
+}
+
+.casos p {
+    text-align: center;
+}
+
 
 footer {
     color: black;
@@ -209,7 +229,9 @@ header>h1 {
 }
 
 main {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
+    background-image: url(../img/fundo-papel.png);
+    background-repeat: repeat
 }
 
 header>img {
@@ -237,17 +259,27 @@ header>img {
     font-weight: 500;
     font-style: normal;
     font-size: 60px;
-  }
+}
 
-.target h2 {
+.obituario h2 {
     text-align: center;
     background-color: rgb(136, 7, 5);
     border-radius: 100px;
+    color: white;
 }
 
-.target img {
+.desaparecidos h2 {
+    text-align: center;
+    background-color: rgb(136, 7, 5);
+    border-radius: 100px;
+    color: white;
+}
+
+.obituario img {
     border-radius: 10px;
 }
+
+
 
 .container {
     display: flex;
@@ -256,20 +288,29 @@ header>img {
     border: 3px solid purple;
 }
 
-.container > div {
+.container>div {
     text-align: center;
 }
 
-.container > div {
+.container>div {
     border: 1px solid red;
     width: auto;
     height: auto;
 }
 
-.vigilancia h2 {
+.nobel h2 {
     text-align: center;
     background-color: rgb(136, 7, 5);
     border-radius: 100px;
+    color: white;
+}
+
+.nobel div {
+    width: 100%;
+}
+
+.nobel img {
+    padding: 10px;
 }
 
 input[type="checkbox"] {
@@ -287,13 +328,16 @@ label {
 
 label:hover {
     background-color: rgb(61, 61, 176);
-}   
+}
 
 .texto-escondido {
     display: none;
 }
 
-input[type="checkbox"]:checked ~ .texto-escondido {
+input[type="checkbox"]:checked~.texto-escondido {
     display: block;
 }
-  
+
+.target {
+    text-align: center;
+}
